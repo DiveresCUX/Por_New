@@ -1,0 +1,43 @@
+{
+    "profile": {
+        "rol": "About me",
+        "description": "Hello, my name is <strong>Héctor Redlich</strong>, I am currently 25 years old and I live in Coyhaique, Aysén Region. I have a degree in Computer Engineering from the Technological University of Chile, Inacap. <br> <br> I am looking for a <strong>professional internship</strong>, with the aim of expanding my knowledge and gaining experience in the field, accompanied by work, perseverance, respect and commitment 💻."
+    },
+
+    "presentation":{ 
+        "title": " ¡Welcome!",
+        "subtitle": "I Héctor Redlich, a Junior Web Developer 😁",
+        "download" : "Download CV"
+    },
+
+    "skills":{
+        "title_skills": "Skills",
+        "support_skills_one": "W10 and W11 Operating System Installation",
+        "support_skills_two": "Computer assembly",
+        "support_skills_three": "Data recovery",
+        "support_skills_four": "Equipment cleaning",
+        "support_skills_five": "Replacement of equipment parts",
+        "support_skills_six": "Project management",
+        "support_skills_seven": "Consultancies",
+        "support_skills_eigth": "Other"
+    },
+
+    "Jobs": {
+        "proyects": "Proyects",
+        "progress": "In progress..."
+    },
+
+    "language":{
+        "title_language": "Language",
+        "spanish": "Native Spanish",
+        "english": "English B1"
+    },
+
+    "navbar":{
+        "home": "Home",
+        "aboutme": "About me",
+        "skills": "Skills",
+        "proyects": "Proyects",
+        "language": "Language"
+    }
+}

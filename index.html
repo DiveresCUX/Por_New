@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Héctor Redlich</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/banner.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/banner.js"></script>
+    <script defer src="js/traduction.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container"> 
+            <nav class="navbar">
+              <a href="#" class="nav-branding">HR</a>
+              <ul class="nav-menu">
+                <li class="nav-item">
+                  <a  data-section="navbar" data-value="home" href="#inicio" class="nav-link">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a  data-section="navbar" data-value="aboutme" href="#sobremi" class="nav-link">Sobre mí</a>
+                </li>
+                <li class="nav-item">
+                    <a  data-section="navbar" data-value="skills" href="#habilidades" class="nav-link">Habilidades</a>
+                </li>
+                <li class="nav-item">
+                    <a   data-section="navbar" data-value="proyects" href="#proyectos" class="nav-link">Proyectos</a>
+                </li>
+                <li class="nav-item">
+                    <a   data-section="navbar" data-value="language" href="#idiomas" class="nav-link">Idiomas</a>
+                </li>
+              </ul>
+              <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+              </div>
+            </nav>
+         </div>
+    </header>
+      
+    
+    <section class="banner" id="inicio">
+        <div class="container">
+        <h1  data-section="presentation" data-value="title" class="presentation" id="Bienvenida">¡Bienvenido!</h1>
+            <img src="img/perfil_banner.png" alt="" class="banner_perfil">
+            <p  data-section="presentation" data-value="subtitle">Soy Héctor Redlich, un Desarrollador Web Junior 😁</p>
+            <div class="container_links">
+                <a data-section="presentation" data-value="download" href="pdf/CV.pdf" download="Héctor Redlich CV" class="descargar_cv">Descargar CV</a>
+                <div class="flags" id="flags">
+                    <div class="flags_item" data-language="es" id="español">
+                        <img src="svg/es.svg" alt="">
+                    </div>
+                    <div class="flags_item" data-language="ue" id="ingles">
+                        <img src="svg/us.svg" alt="">
+                    </div> 
+                </div>
+            </div>
+            <div class="redes">
+            <a href="https://www.linkedin.com/in/hectorredlich/"><svg stroke="currentColor" fill="blue" stroke-width="0" viewBox="0 0 448 512" height="70px" width="50px" xmlns="http://www.w3.org/2000/svg"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path></svg></a>
+            <a href="https://github.com/DiveresCUX"><svg stroke="currentColor" fill="white" stroke-width="0" viewBox="0 0 496 512" height="70px" width="50px" xmlns="http://www.w3.org/2000/svg"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg></a>
+            <a href="mailto:hector.redlich@gmail.com"><svg xmlns="http://www.w3.org/2000/svg" width="50px" height="70px" viewBox="0 0 24 24" style="fill: red;"><path d="m18.73 5.41-1.28 1L12 10.46 6.55 6.37l-1.28-1A2 2 0 0 0 2 7.05v11.59A1.36 1.36 0 0 0 3.36 20h3.19v-7.72L12 16.37l5.45-4.09V20h3.19A1.36 1.36 0 0 0 22 18.64V7.05a2 2 0 0 0-3.27-1.64z"></path></svg></a>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <section class="aboutme" id="sobremi">
+        <h1 data-section="profile" data-value="rol">Sobre mí</h1>
+        <div class="container"> 
+            <p data-section="profile" data-value="description" >Hola, mi nombre es <strong>Héctor Redlich</strong>, actualmente tengo 25 años y vivo en Coyhaique, Región de Aysén. 
+            Soy egresado de Ingenería Informática en la Universidad Tecnológica de Chile, Inacap. 
+            <br><br>
+            Estoy en busca de <strong>práctica profesional</strong>,
+            con el objetivo de ampliar mis conocimientos y ganar experiencia en el rubro, acompañado del trabajo, constancia, respeto y compromiso 💻.</p>
+        </div>
+
+
+    </section>
+
+
+
+    <section class="skills" id="habilidades">
+        <div  class="container">
+            <h1 data-section="skills" data-value="title_skills" >Habilidades</h1>
+            <div class="code">
+               <img src="img/html5.png" alt="">
+               <img src="img/css.png" alt="">
+               <img src="img/js.png" alt="">
+               <img src="img/php.png" alt="">
+            </div>
+            <div class="support">
+                <p data-section="skills" data-value="support_skills_one">Instalación de Sistema Operativo W10 y W11</p>
+                <p data-section="skills" data-value="support_skills_two">Armado de ordenadores</p>
+                <p data-section="skills" data-value="support_skills_three">Recuperación de datos</p>
+                <p data-section="skills" data-value="support_skills_four">Limpieza de equipos</p>
+                <p data-section="skills" data-value="support_skills_five">Remplazo de piezas a equipos</p>
+                <p data-section="skills" data-value="support_skills_six">Gestión de proyectos</p>
+                <p data-section="skills" data-value="support_skills_seven">Acesorías</p>
+                <p data-section="skills" data-value="support_skills_eigth">Otros</p>
+            </div>
+        </div>
+    
+    </section>
+
+
+
+    <section class="proyects" id="proyectos"> 
+        <h1 data-section="Jobs" data-value="proyects" >Proyectos</h1>
+        <p data-section="Jobs" data-value="progress">En progreso...</p>
+        <div class="loader">
+        </div>
+    </section>
+
+
+
+
+    <section class="idioma" id="idiomas">
+        <h1 data-section="language" data-value="title_language" >Idiomas</h1>
+        <div class="type">
+            <p data-section="language" data-value="spanish" >ESPAÑOL NATIVO</p>
+            <P data-section="language" data-value="english">INGLES B1</P>
+        </div>
+    </section>
+
+    <section class="copyrigth">
+        <span>hector.redlich@gmail.com</span>
+        <span>Copyright © 2023, All Right Reserved Héctor Redlich</span>
+    </section>
+
+</body>
+</html>

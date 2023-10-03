@@ -1,0 +1,43 @@
+{
+    "profile": {
+        "rol": "Sobre mí",
+        "description": "Hola, mi nombre es <strong>Héctor Redlich</strong>, actualmente tengo 25 años y vivo en Coyhaique, Región de Aysén. Soy egresado de Ingenería Informática en la Universidad Tecnológica de Chile, Inacap.<br><br> Estoy en busca de <strong>práctica profesional</strong>, con el objetivo de ampliar mis conocimientos y ganar experiencia en el rubro, acompañado del trabajo, constancia, respeto y compromiso 💻."
+    },
+
+    "presentation":{ 
+        "title": "¡Bienvenido!",
+        "subtitle": "Soy Héctor Redlich, un Desarrollador Web Junior 😁",
+        "download" : "Descargar CV"
+    },
+
+    "skills":{
+        "title_skills": "Habilidades",
+        "support_skills_one": "Instalación de Sistema Operativo W10 y W11",
+        "support_skills_two": "Armado de ordenadores",
+        "support_skills_three": "Recuperación de datos",
+        "support_skills_four": "Limpieza de equipos",
+        "support_skills_five": "Remplazo de piezas a equipos",
+        "support_skills_six": "Gestión de proyectos",
+        "support_skills_seven": "Acesorías",
+        "support_skills_eigth": "Otros"
+    },
+
+    "Jobs": {
+        "proyects": "Proyectos",
+        "progress": "En progreso..."
+    },
+
+    "language":{
+        "title_language": "Idiomas",
+        "spanish": "Español Nativo",
+        "english": "Ingles B1"
+    },
+
+    "navbar":{
+        "home": "Inicio",
+        "aboutme": "Sobre mí",
+        "skills": "Habilidades",
+        "proyects": "Proyectos",
+        "language": "Idiomas"
+    }
+}
