@@ -1,7 +1,8 @@
 {
     "profile": {
         "rol": "Sobre mí",
-        "description": "Hola, mi nombre es <strong>Héctor Redlich</strong>, actualmente tengo 25 años y vivo en Coyhaique, Región de Aysén. Soy egresado de Ingenería Informática en la Universidad Tecnológica de Chile, Inacap.<br><br> Estoy en busca de <strong>práctica profesional</strong>, con el objetivo de ampliar mis conocimientos y ganar experiencia en el rubro, acompañado del trabajo, constancia, respeto y compromiso 💻."
+        "description": "Hola, mi nombre es <strong>Héctor Redlich</strong>, actualmente tengo 25 años y vivo en Coyhaique, Región de Aysén.",
+        "description_two":" Soy egresado de Ingenería Informática en la Universidad Tecnológica de Chile, Inacap. Estoy en busca de <strong>práctica profesional</strong>, con el objetivo de ampliar mis conocimientos y ganar experiencia en el rubro, acompañado del trabajo, constancia, respeto y compromiso 💻."
     },
 
     "presentation":{ 

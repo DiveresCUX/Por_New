@@ -1,8 +1,10 @@
 {
     "profile": {
         "rol": "About me",
-        "description": "Hello, my name is <strong>Héctor Redlich</strong>, I am currently 25 years old and I live in Coyhaique, Aysén Region. I have a degree in Computer Engineering from the Technological University of Chile, Inacap. <br> <br> I am looking for a <strong>professional internship</strong>, with the aim of expanding my knowledge and gaining experience in the field, accompanied by work, perseverance, respect and commitment 💻."
+        "description": "Hello, my name is <strong>Héctor Redlich</strong>, I am currently 25 years old and I live in Coyhaique, Aysén Region. I have a degree in Computer Engineering from the Technological University of Chile, Inacap.",
+        "description_two": " I am looking for a <strong>professional internship</strong>, with the aim of expanding my knowledge and gaining experience in the field, accompanied by work, perseverance, respect and commitment 💻."
     },
+
 
     "presentation":{ 
         "title": " ¡Welcome!",
